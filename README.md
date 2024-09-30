@@ -1,1 +1,27 @@
-The npz file for each dataset contains three feature: flow, occupy, speed.
+## Datasets
+
+Step 1: Process dataset
+
+- **on PEMS03 dataset**
+
+    ```bash
+    python DataProcess.py --config config/PEMS03.conf
+    ```
+
+- **on PEMS04 dataset**
+
+    ```bash
+    python DataProcess.py --config config/PEMS04.conf
+    ```
+
+- **on PEMS07 dataset**
+
+    ```bash
+    python DataProcess.py --config config/PEMS07.conf
+    ```
+
+- **on PEMS08 dataset**
+
+    ```bash
+    python DataProcess.py --config config/PEMS08.conf
+    ```
